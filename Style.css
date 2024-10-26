@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 2rem;
+    color: #6A5ACD;
+}
+
+.try-free-btn {
+    font-size: 1rem;
+    color: #6A5ACD;
+    border: 2px solid #6A5ACD;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.try-free-btn:hover {
+    background-color: #6A5ACD;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.email-form {
+    display: flex;
+    align-items: center;
+}
+
+.email-form input {
+    padding: 15px;
+    border-radius: 50px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    font-size: 1rem;
+    width: 250px;
+}
+
+.email-form button {
+    padding: 15px 30px;
+    background-color: #6A5ACD;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.email-form button:hover {
+    background-color: #4B0082;
+}
+
+.hero-image img {
+    max-width: 400px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-basis: 30%;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.card:nth-child(1) {
+    background-color: #6a5acd;
+    color: white;
+}
+
+.card:nth-child(2) {
+    background-color: #e0e7ff;
+}
+
+.card:nth-child(3) {
+    background-color: #ffe4b5;
+}
+
+.management .row, 
+.workflow .row {
+    display: flex;
+    align-items: center;
+}
+
+.management .row .col-md-6,
+.workflow .row .col-md-6 {
+    flex: 1;
+    padding: 15px;
+}
+
+.management img, 
+.workflow img {
+    max-width: 100%;
+    height: auto;
+}
+
+.store-buttons img {
+    max-width: 120px;
+    margin-right: 10px;
+}
+
+
+
+.trust {
+    background-color: white;
+    padding: 50px 0;
+}
+
+.trust-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trust-content h3 {
+    font-size: 5rem; 
+    color: #6A5ACD;  
+    margin: 0 20px;
+}
+
+.trust-image {
+    width: 100px; 
+}
+
+.trust-us {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.email-form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.email-form input {
+    padding: 15px;
+    border-radius: 50px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    font-size: 1rem;
+    width: 250px;
+}
+
+.email-form button {
+    padding: 15px 30px;
+    background-color: #6A5ACD;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.email-form button:hover {
+    background-color: #4B0082;
+}
